@@ -1,0 +1,205 @@
+(footprint "SKRPACE010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "Tactile Switch")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "e56ff9ca-74d7-4aa3-8111-533a5ee32933")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SKRPACE010"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "a786f27e-1ab5-47e2-b000-faa5fc44f3aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c197b0c-cea6-4c47-a225-322399bfaee3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0ba27b1-1f99-49b5-8a9c-5cf571a9795c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e11df53-f8ee-43ce-93b4-3c90d3d22c5c")
+	)
+	(fp_line
+		(start -2.1 -1.5)
+		(end -2.1 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75f2296d-b0af-40b7-a7ae-3583b9f751e7")
+	)
+	(fp_line
+		(start -2.1 -0.4)
+		(end -2.1 0.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "546679ac-d732-4f97-b8e7-4623a7c1acca")
+	)
+	(fp_line
+		(start -2.1 1.5)
+		(end -2.1 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7606794f-94b1-4b7c-9aab-06201525eb9b")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5616da4a-8ed8-4011-921b-cd43949918e7")
+	)
+	(fp_line
+		(start 2.1 -1.6)
+		(end 2.1 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "705a451f-c08f-4aa5-aa9c-8fcf274e5428")
+	)
+	(fp_line
+		(start 2.1 -0.4)
+		(end 2.1 0.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a3f5068c-0796-42cf-8b75-12c64a36d006")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end 2.1 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b43c1010-b7f4-4abc-8ebc-c2e4f2484a6f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "705520bd-f91c-4e5f-aa61-c642aaa6f9c8")
+	)
+	(fp_rect
+		(start -2.7 -1.75)
+		(end 2.7 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3e1481de-8f42-4f9e-8db7-3a49fd2e1f14")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(uuid "b618111c-4d85-41dc-be76-621aed6ccefc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.075 -1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5178655-4ae4-4e7c-b5bb-a79d990d08a6")
+	)
+	(pad "1" smd rect
+		(at 2.075 -1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c487428f-298a-44d8-a317-c092853289ee")
+	)
+	(pad "2" smd rect
+		(at -2.075 1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6303564a-a802-4485-a162-ac155bfd49db")
+	)
+	(pad "2" smd rect
+		(at 2.075 1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "19f45c8d-e3c0-40cb-921f-d2381141731c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
